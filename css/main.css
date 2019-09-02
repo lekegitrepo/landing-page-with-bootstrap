@@ -34,7 +34,7 @@ a {
     margin-right: 1em !important;
 }
 
-.nav-link:hover {
+.nav-link:hover, .navbar-brand:hover {
     background: #f4f4f4;
     color: #343a40;
 }
