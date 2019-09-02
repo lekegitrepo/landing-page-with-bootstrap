@@ -185,7 +185,7 @@ a {
 }
 
 .team h1 {
-    color: #F97300;
+    color: #343a40;
     margin: 2em;
 }
 
@@ -194,7 +194,7 @@ a {
 }
 
 .team .des {
-    background: #F97300;
+    background: #343a40;
     color: #fff;
     text-align: center;
     border-bottom-left-radius: 93%;
@@ -204,9 +204,9 @@ a {
 
 .team .item:hover .des {
     height: 100%;
-    background: #f973007d;
+    background: #343a4066;
     position: absolute;
-    width: 100%;
+    width: 95%;
     padding: 5em;
     top: 0;
     border-bottom-left-radius: 0;
