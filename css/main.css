@@ -132,3 +132,29 @@
     margin: 1em;
 
 }
+
+.blog {
+ margin: 4em 0;
+ position: relative; 
+}
+.blog h1 {
+ color:#343a40;
+ margin: 2em; 
+}
+.blog-card {
+	margin-bottom: 20px;
+}
+.blog .card {
+ box-shadow: 0 0 20px #ccc;
+}
+.blog .card img {
+ width: 100%;
+ height: 12em;
+}
+.blog .card-title {
+ color:#343a40;
+  
+}
+.blog .card-body{
+ padding: 1em;
+}
