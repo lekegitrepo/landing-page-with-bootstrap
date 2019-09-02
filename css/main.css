@@ -1,6 +1,6 @@
 
 .navbar{
-	background:#F97300;
+	/*background:#F97300;*/
 }
 
 /*
@@ -24,7 +24,7 @@
 
 .nav-link:hover{
 	background: #f4f4f4;
-	color: #f97300;
+	color: #343a40;
 }
 
 .navbar-collapse{
@@ -33,4 +33,14 @@
 
 .navbar-toggler{
 	background:#fff !important;
+}
+
+/*header style*/
+.header{
+  background-image: url('../images/header-image.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  width: auto;
 }
