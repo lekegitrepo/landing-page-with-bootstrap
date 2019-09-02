@@ -84,7 +84,7 @@
 }
 
 .about h1 {
-    color: #F97300;
+    color: #343a40;
     margin: 2em;
 }
 
@@ -113,4 +113,22 @@
 .about .desc p {
     line-height: 2;
     color: #888;
+}
+
+/*Portfolio*/
+.gallery {
+    margin: 4em 0;
+    position: relative;
+}
+
+.gallery h1 {
+    color: #343a40;
+    margin: 2em;
+}
+
+.gallery img {
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+
 }
