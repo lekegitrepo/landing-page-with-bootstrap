@@ -1,6 +1,5 @@
-
 .navbar {
-	/*background:#F97300;*/
+    /*background:#F97300;*/
 }
 
 /*
@@ -12,68 +11,106 @@
 	}
 */
 
-.nav-link ,
+.nav-link,
 .navbar-brand {
-	color: #f4f4f4;
-	cursor: pointer;
+    color: #f4f4f4;
+    cursor: pointer;
 }
 
 .nav-link {
-	margin-right: 1em !important;
+    margin-right: 1em !important;
 }
 
 .nav-link:hover {
-	background: #f4f4f4;
-	color: #343a40;
+    background: #f4f4f4;
+    color: #343a40;
 }
 
 .navbar-collapse {
-	justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .navbar-toggler {
-	background:#fff !important;
+    background: #fff !important;
 }
 
 /*header style*/
 .header {
-  background-image: url('../images/header-image.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 900px;
-  width: auto;
+    background-image: url('../images/header-image.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: auto;
 }
 
 .overlay {
- background: rgba(244, 244, 244, 0.5);
- left: 0;
- min-height: 100%;
- min-width: 100%;
- position: absolute;
- top: 0;
+    background: rgba(244, 244, 244, 0.5);
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .description {
     margin: auto;
     position: absolute;
     padding: 2em;
-    top: 30%;    
+    top: 30%;
 }
 
 .description h1 {
- color:#343a40 ;
+    color: #343a40;
 }
 
 .description p {
- color:#666;
- font-size: 20px;
- width: 50%;
- line-height: 1.5;
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
 }
 
 .description button {
- border:1px  solid #343a40;
- background:#343a40;
- color:#fff;
+    border: 1px solid #343a40;
+    background: #343a40;
+    color: #fff;
+}
+
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1 {
+    color: #F97300;
+    margin: 2em;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+
+.about span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #10828C;
+}
+
+.about .desc h3 {
+    color: #10828C;
+}
+
+.about .desc p {
+    line-height: 2;
+    color: #888;
 }
