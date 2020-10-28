@@ -24,7 +24,7 @@ https://github.com/lekegitrepo/landing-page-with-bootstrap.git
 
 2. Run
 
-## Load the app in a browser by opening the `index.html` file
+ Load the `index.html` file in a browser
 
 ## Author
 
